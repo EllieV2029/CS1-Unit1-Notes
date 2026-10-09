@@ -1,1 +1,12 @@
+/*practicing using universal selector*/
 
+*/when refering to a class as a leplecter, we use .class-name*/
+.alert-text {
+    color: rgb(252, 161, 252); 
+}
+.top-alert {
+    font-weight: bold;
+}
+
+#tip { color: gray; 
+}
