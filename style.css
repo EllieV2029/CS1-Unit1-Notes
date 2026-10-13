@@ -1,12 +1,21 @@
 /*practicing using universal selector*/
+/*property:value; {selector} *=universal selector TAG .class-name #id-name
+/* we can apply a rule to more than one slelecter by listing them*/ 
+/* .top-alert, .alert-text {font-weight: bold;} */
 
-*/when refering to a class as a leplecter, we use .class-name*/
+/*we can apply a rule to more than one selecter by chaining them together w periods*/
+*/when referring to a class as a leplecter, we use .
+
+alert-text.top-alert {
+    font-weight: bold; */and/*
+}
+class-name*/
 .alert-text {
     color: rgb(252, 161, 252); 
 }
-.top-alert {
-    font-weight: bold;
+alert-text, .top-alert {
+    font-weight: bold; */or/*
 }
 
-#tip { color: gray; 
+#tip { color: rgb(255, 0, 140); 
 }
